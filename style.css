@@ -1724,23 +1724,29 @@ img {
 @media (max-width: 900px) {
     .process-timeline::before,
     .process-timeline-progress {
-        left: 30px;
+        left: 20px;
     }
     
     .process-step, .process-step:nth-child(even) {
         flex-direction: column;
         align-items: flex-start;
-        padding-left: 80px;
+        padding-left: 55px; /* Reduced from 80px */
+        margin-bottom: 3rem;
     }
     
     .step-number {
-        left: 30px;
+        left: 20px; /* Reduced from 30px */
         top: 0;
         transform: translate(-50%, 0);
+        width: 45px; /* Smaller circle for mobile */
+        height: 45px;
+        font-size: 1.1rem;
+        border-width: 4px;
     }
     
     .step-content {
         width: 100%;
+        padding: 2rem !important; /* More compact padding */
     }
 
     .reviews-grid {
