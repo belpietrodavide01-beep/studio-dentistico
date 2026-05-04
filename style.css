@@ -1296,8 +1296,13 @@ img {
     /* =============================================
        CTA BANNER
        ============================================= */
-    .cta-banner { padding: 3.5rem 1.5rem; }
-    .cta-text { font-size: 1.5rem; margin-bottom: 1.5rem; }
+    .cta-banner { padding: 4rem 1.5rem; }
+    .cta-text { 
+        font-size: 1.4rem !important; 
+        line-height: 1.3 !important;
+        margin-bottom: 2rem !important;
+        max-width: 100% !important;
+    }
 
     /* =============================================
        FOOTER — Streamlined
