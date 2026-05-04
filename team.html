@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Il Nostro Team - Dentiva</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header sticky">
+        <nav class="nav container">
+            <div class="logo">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 2L14.5 9.5H22L16 14L18.5 21.5L12 17L5.5 21.5L8 14L2 9.5H9.5L12 2Z" fill="#A13F31" />
+                </svg>
+                <span>Dentiva</span>
+            </div>
+            <div class="nav-links">
+                <a href="index.html">Studio</a>
+                <a href="team.html" class="active">Il Team</a>
+                <div class="nav-item dropdown">
+                    <a href="index.html#trattamenti" class="dropdown-trigger">Trattamenti <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6" /></svg></a>
+                    <div class="dropdown-menu">
+                        <a href="trattamenti/igiene.html">Igiene Orale</a>
+                        <a href="trattamenti/sbiancamento.html">Sbiancamento Dentale</a>
+                        <a href="trattamenti/implantologia.html">Implantologia</a>
+                        <a href="trattamenti/ortodonzia.html">Ortodonzia Invisibile</a>
+                        <a href="trattamenti/estetica.html">Odontoiatria Estetica</a>
+                        <a href="famiglia.html" class="highlight-kids">Per il tuo bambino</a>
+                        <a href="trattamenti/preventiva.html">Assistenza Preventiva</a>
+                        <a href="trattamenti/raccordo-fissaggio.html">Raccordo di Fissaggio</a>
+                        <a href="trattamenti/sigillanti.html">Sigillanti Dentali</a>
+                        <a href="trattamenti/terapia-parodontale.html">Parodontologia</a>
+                        <a href="trattamenti/urgenza.html">Odontoiatria d'Urgenza</a>
+                    </div>
+                </div>
+                <a href="index.html#contatti">Contatti</a>
+            </div>
+            <a href="index.html#contatti" class="nav-cta btn btn-primary">PRENOTA ORA</a>
+            <button class="mobile-nav-toggle" aria-label="Apri menu">
+                <span></span><span></span><span></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="treatment-hero staff-hero">
+            <div class="hero-slider"><div class="slide active" style="background-image: url('assets/hero_implantologia_real_1777380021484.png')"></div></div>
+            <div class="hero-overlay"></div>
+            <div class="treatment-hero-container container reveal-up">
+                <div class="treatment-hero-content">
+                    <h1 class="treatment-hero-title">Il Nostro Team</h1>
+                    <p class="treatment-hero-subtitle">Professionisti d'eccellenza dedicati alla salute e alla bellezza del tuo sorriso.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="staff-section reveal-up">
+            <div class="container">
+                <div class="staff-grid">
+                    <!-- Doctor 1 -->
+                    <div class="staff-card scale-in">
+                        <div class="staff-image">
+                            <img src="assets/dentist-smiling.png" alt="Dr. Giovanni Rossi">
+                        </div>
+                        <div class="staff-info">
+                            <h3>Dr. Giovanni Rossi</h3>
+                            <p class="staff-role">Direttore Sanitario & Chirurgo</p>
+                            <p class="staff-bio">Esperto in implantologia e chirurgia avanzata con oltre 20 anni di esperienza internazionale.</p>
+                        </div>
+                    </div>
+
+                    <!-- Doctor 2 -->
+                    <div class="staff-card scale-in" style="transition-delay: 200ms">
+                        <div class="staff-image">
+                            <img src="assets/hero_igiene_real_1777379990495.png" alt="Dr.ssa Elena Bianchi">
+                        </div>
+                        <div class="staff-info">
+                            <h3>Dr.ssa Elena Bianchi</h3>
+                            <p class="staff-role">Specialista in Pedodonzia</p>
+                            <p class="staff-bio">Dedicata esclusivamente alla cura dei piccoli pazienti, con un approccio dolce e rassicurante.</p>
+                        </div>
+                    </div>
+
+                    <!-- Doctor 3 -->
+                    <div class="staff-card scale-in" style="transition-delay: 400ms">
+                        <div class="staff-image">
+                            <img src="assets/dental_consultation_1777362586554.png" alt="Dr. Marco Neri">
+                        </div>
+                        <div class="staff-info">
+                            <h3>Dr. Marco Neri</h3>
+                            <p class="staff-role">Esperto in Estetica & Ortodonzia</p>
+                            <p class="staff-bio">Specializzato nel design del sorriso e nell'uso di allineatori trasparenti di ultima generazione.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-banner reveal-up">
+            <div class="container">
+                <h2>Vuoi conoscere meglio i nostri specialisti?</h2>
+                <p>Prenota una visita senza impegno e vieni a trovarci in studio.</p>
+                <a href="index.html#contatti" class="btn btn-primary btn-large">PRENOTA UN APPUNTAMENTO</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2024 Dentiva. Tutti i diritti riservati.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

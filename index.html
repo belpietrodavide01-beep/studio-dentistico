@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dentiva - Studio Dentistico Professionale</title>
+    <meta name="description"
+        content="Restituisci il sorriso, ritrova la fiducia in te stesso con i trattamenti d'avanguardia del nostro studio dentistico.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+
+    <!-- Header / Navbar -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="logo">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 2L14.5 9.5H22L16 14L18.5 21.5L12 17L5.5 21.5L8 14L2 9.5H9.5L12 2Z" fill="#A13F31" />
+                </svg>
+                <span>Dentiva</span>
+            </div>
+
+            <div class="nav-links">
+                <a href="index.html">Studio</a>
+                <a href="team.html">Il Team</a>
+                <div class="nav-item dropdown">
+                    <a href="#trattamenti" class="dropdown-trigger">Trattamenti <svg width="12" height="12"
+                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="m6 9 6 6 6-6" />
+                        </svg></a>
+                    <div class="dropdown-menu">
+                        <a href="trattamenti/igiene.html">Igiene Orale</a>
+                        <a href="trattamenti/sbiancamento.html">Sbiancamento Dentale</a>
+                        <a href="trattamenti/implantologia.html">Implantologia</a>
+                        <a href="trattamenti/ortodonzia.html">Ortodonzia Invisibile</a>
+                        <a href="trattamenti/estetica.html">Odontoiatria Estetica</a>
+                        <a href="trattamenti/famiglia.html" class="highlight-kids">Per il tuo bambino</a>
+                        <a href="trattamenti/preventiva.html">Assistenza Preventiva</a>
+                        <a href="trattamenti/raccordo-fissaggio.html">Raccordo di Fissaggio</a>
+                        <a href="trattamenti/sigillanti.html">Sigillanti Dentali</a>
+                        <a href="trattamenti/terapia-parodontale.html">Parodontologia</a>
+                        <a href="trattamenti/urgenza.html">Odontoiatria d'Urgenza</a>
+                    </div>
+                </div>
+                <a href="#contatti">Contatti</a>
+            </div>
+            <a href="#prenota" class="nav-cta btn btn-primary">PRENOTA ORA</a>
+
+            <!-- Mobile Menu Toggle -->
+            <button class="mobile-nav-toggle" aria-label="Apri menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-slider">
+            <div class="slide active" style="background-image: url('assets/hero_ortodonzia_real_1777380039256.png')"></div>
+            <div class="slide" style="background-image: url('assets/hero_implantologia_real_1777380021484.png')"></div>
+            <div class="slide" style="background-image: url('assets/hero_preventiva_real_v2_1777380518358.png')"></div>
+        </div>
+        <div class="hero-overlay"></div>
+        
+        <div class="hero-container container">
+            <div class="hero-content">
+                <h1 class="hero-title">Ritrova il sorriso</h1>
+                <p class="hero-description">
+                    Tecnologie d'avanguardia e comfort esclusivo per il tuo sorriso migliore.
+                </p>
+                <div class="hero-cta">
+                    <a href="#prenota" class="btn btn-large">PRENOTA UN APPUNTAMENTO</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Special Kids Banner -->
+    <section class="kids-special-banner reveal-up mobile-hide">
+        <div class="container kids-banner-content">
+            <div class="kids-banner-text">
+                <span class="kids-badge">SPECIALISTI DEI PICCOLI</span>
+                <h2>Un'accoglienza magica per il tuo bambino</h2>
+                <p>Abbiamo creato un ambiente dove la paura non esiste. Cure dolci, tecnologie silenziose e tanto gioco per far crescere sorrisi sani e felici fin da piccoli.</p>
+                <a href="trattamenti/famiglia.html" class="btn-link">Scopri il nostro metodo →</a>
+            </div>
+            <div class="kids-banner-image">
+                <img src="assets/hero_famiglia_real_v2_1777380504147.png" alt="Bambino felice dal dentista">
+            </div>
+        </div>
+    </section>
+
+    <!-- Treatments Section -->
+    <section id="trattamenti" class="treatments container">
+        <div class="treatments-header reveal-up">
+            <h2 class="section-title">Cure specialistiche per ogni dente</h2>
+            <p class="section-subtitle">Nella nostra clinica crediamo che ogni dente meriti un'attenzione esperta, anche
+                se si tratta di un controllo di routine.</p>
+        </div>
+
+        <div class="treatments-grid">
+            <!-- Treatment 1 -->
+            <div class="treatment-card scale-in delay-100">
+                <div class="treatment-top">
+                    <h3>Igiene Orale</h3>
+                </div>
+                <div class="treatment-body">
+                    <p>Mantieni denti e gengive in perfetta salute grazie alla nostra detartrasi e lucidatura professionale, prevenendo i disturbi del cavo orale.</p>
+                    <div class="treatment-info">
+                        <span class="duration">45-60 minuti</span>
+                        <span class="price">Seduta singola</span>
+                    </div>
+                    <a href="trattamenti/igiene.html" class="btn btn-primary">SCOPRI DI PIÙ</a>
+                </div>
+            </div>
+
+            <!-- Treatment 2 -->
+            <div class="treatment-card scale-in delay-200">
+                <div class="treatment-top">
+                    <h3>Sbiancamento Dentale</h3>
+                </div>
+                <div class="treatment-body">
+                    <p>Riscopri la naturale luminosità del tuo sorriso in una sola seduta con i nostri gel sbiancanti professionali ed innocui sullo smalto.</p>
+                    <div class="treatment-info">
+                        <span class="duration">60-90 minuti</span>
+                        <span class="price">Seduta singola</span>
+                    </div>
+                    <a href="trattamenti/sbiancamento.html" class="btn btn-primary">SCOPRI DI PIÙ</a>
+                </div>
+            </div>
+
+            <!-- Treatment 3 -->
+            <div class="treatment-card scale-in delay-300">
+                <div class="treatment-top">
+                    <h3>Implantologia</h3>
+                </div>
+                <div class="treatment-body">
+                    <p>Soluzioni fisse e definitive in titanio ad altissima biocompatibilità per ripristinare in totale sicurezza i denti mancanti.</p>
+                    <div class="treatment-info">
+                        <span class="duration">Intervento rapido</span>
+                        <span class="price">Più sedute</span>
+                    </div>
+                    <a href="trattamenti/implantologia.html" class="btn btn-primary">SCOPRI DI PIÙ</a>
+                </div>
+            </div>
+
+            <!-- Treatment 4 -->
+            <div class="treatment-card scale-in" style="transition-delay: 400ms">
+                <div class="treatment-top">
+                    <h3>Ortodonzia Invisibile</h3>
+                </div>
+                <div class="treatment-body">
+                    <p>Allinea il tuo sorriso in modo confortevole e virtualmente invisibile con i nostri esclusivi aligner trasparenti, senza ferretti visibili.</p>
+                    <div class="treatment-info">
+                        <span class="duration">Consulto Iniziale</span>
+                        <span class="price">Più sedute</span>
+                    </div>
+                    <a href="trattamenti/ortodonzia.html" class="btn btn-primary">SCOPRI DI PIÙ</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-dots" id="treatments-dots"></div>
+    </section>
+
+    <!-- Selection Section -->
+    <section class="selection container">
+        <div class="selection-header reveal-up">
+            <h2 class="selection-title">Seleziona il tuo trattamento</h2>
+            <p class="selection-subtitle">Grazie ad anni di esperienza pratica in diversi settori, vantiamo una profonda
+                conoscenza del settore e competenze tecniche.</p>
+        </div>
+
+        <div class="selection-grid">
+            <div class="selection-cards reveal-left">
+                <!-- Card 1 -->
+                <div class="category-card"
+                    style="background-image: linear-gradient(to top, rgba(0,0,0,0.8), rgba(0,0,0,0.2)), url('assets/hero_urgenza_v3_final_1777380617212.png');">
+                    <span class="category-badge">Estrazione della saggezza</span>
+                    <p class="category-text">L'estrazione del dente del giudizio è una procedura comune per rimuovere
+                        uno o più terzi molari, ovvero gli ultimi denti a spuntare.</p>
+                </div>
+
+                <!-- Card 2: Special for Kids -->
+                <a href="trattamenti/famiglia.html" class="category-card"
+                    style="background-image: linear-gradient(to top, rgba(0,0,0,0.8), rgba(0,0,0,0.2)), url('assets/hero_famiglia_real_v2_1777380504147.png'); text-decoration: none;">
+                    <span class="category-badge">Per il tuo bambino</span>
+                    <p class="category-text">Un ambiente magico e cure dolci studiate apposta per far sorridere i piccoli pazienti, senza alcuna paura.</p>
+                </a>
+            </div>
+
+            <div class="selection-list-wrapper reveal-right">
+                <p class="list-title">Altri trattamenti importanti</p>
+                <ul class="selection-list">
+                    <li><a href="trattamenti/igiene.html">Igiene orale <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M5 12h14m-7-7 7 7-7 7" />
+                            </svg></a></li>
+                    <li><a href="trattamenti/raccordo-fissaggio.html">Raccordo di fissaggio <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M5 12h14m-7-7 7 7-7 7" />
+                            </svg></a></li>
+                    <li><a href="trattamenti/terapia-parodontale.html">Terapia parodontale <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M5 12h14m-7-7 7 7-7 7" />
+                            </svg></a></li>
+                    <li><a href="trattamenti/sigillanti.html">Sigillanti dentali <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M5 12h14m-7-7 7 7-7 7" />
+                            </svg></a></li>
+                    <li><a href="trattamenti/urgenza.html">Odontoiatria d'urgenza <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M5 12h14m-7-7 7 7-7 7" />
+                            </svg></a></li>
+                    <li><a href="trattamenti/preventiva.html">Assistenza preventiva <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M5 12h14m-7-7 7 7-7 7" />
+                            </svg></a></li>
+                    <li class="kids-list-item"><a href="trattamenti/famiglia.html" class="highlight-kids">Per il tuo bambino <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M5 12h14m-7-7 7 7-7 7" />
+                            </svg></a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Results Section -->
+    <section class="results container">
+        <div class="results-header reveal-up">
+            <h2 class="section-title">Cure specialistiche per ogni dente</h2>
+        </div>
+
+        <div class="results-grid">
+            <div class="result-card scale-in delay-100">
+                <div class="result-image-wrapper">
+                    <img src="assets/result-1.png" alt="Sbiancamento dentale prima e dopo">
+                    <span class="badge badge-prima">Prima</span>
+                    <span class="badge badge-dopo" style="bottom:1rem; left:1rem;">Dopo</span>
+                </div>
+            </div>
+
+            <div class="result-card scale-in delay-200">
+                <div class="result-image-wrapper">
+                    <img src="assets/result-2.png" alt="Sorriso prima e dopo trattamento">
+                    <span class="badge badge-prima">Prima</span>
+                    <span class="badge badge-dopo" style="bottom:1rem; left:1rem;">Dopo</span>
+                </div>
+            </div>
+
+            <div class="result-card scale-in delay-300">
+                <div class="result-image-wrapper">
+                    <img src="assets/result-3.png" alt="Sbiancamento uomo prima e dopo">
+                    <span class="badge badge-prima">Prima</span>
+                    <span class="badge badge-dopo" style="bottom:1rem; left:1rem;">Dopo</span>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-dots" id="results-dots"></div>
+    </section>
+
+    <!-- Reviews Section (Looping Marquee) -->
+    <section class="reviews-section reveal-up">
+        <div class="container">
+            <div class="treatments-header" style="text-align: center; margin-bottom: 4rem;">
+                <h2 class="section-title">Cosa dicono i nostri pazienti</h2>
+                <p class="section-subtitle">Oltre 500 sorrisi curati ogni anno con dedizione e professionalità d'eccellenza.</p>
+            </div>
+        </div>
+        
+        <div class="reviews-carousel">
+            <div class="reviews-track">
+                <!-- Set 1 -->
+                <div class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-text">"Un'esperienza fantastica. Temevo il solito dolore ma non ho sentito nulla. Staff super professionale e risultato eccellente."</p>
+                    <div class="review-author">
+                        <h4>Marco V.</h4>
+                        <p>Paziente da 3 anni</p>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-text">"Non sorridevo da anni con questa sicurezza. Grazie allo studio Dentiva ho finalmente risolto il mio problema definitivamente."</p>
+                    <div class="review-author">
+                        <h4>Sara L.</h4>
+                        <p>Implantologia</p>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-text">"Consiglio questo studio a tutti. La pulizia, la puntualità e soprattutto la preparazione dei medici sono di altissimo livello."</p>
+                    <div class="review-author">
+                        <h4>Gianni F.</h4>
+                        <p>Paziente Dedicato</p>
+                    </div>
+                </div>
+                <!-- Set 2 (Duplicate for Loop) -->
+                <div class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-text">"Un'esperienza fantastica. Temevo il solito dolore ma non ho sentito nulla. Staff super professionale e risultato eccellente."</p>
+                    <div class="review-author">
+                        <h4>Marco V.</h4>
+                        <p>Paziente da 3 anni</p>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-text">"Non sorridevo da anni con questa sicurezza. Grazie allo studio Dentiva ho finalmente risolto il mio problema definitivamente."</p>
+                    <div class="review-author">
+                        <h4>Sara L.</h4>
+                        <p>Implantologia</p>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-text">"Consiglio questo studio a tutti. La pulizia, la puntualità e soprattutto la preparazione dei medici sono di altissimo livello."</p>
+                    <div class="review-author">
+                        <h4>Gianni F.</h4>
+                        <p>Paziente Dedicato</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Precision Section -->
+    <section id="studio" class="precision container">
+        <div class="precision-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; align-items: center;">
+            <div class="precision-content reveal-left">
+                <h2 class="precision-title">Odontoiatria di precisione per risultati duraturi</h2>
+
+                <div class="precision-features">
+                    <div class="feature-item">
+                        <h3>Sorridi con sicurezza</h3>
+                        <p>Sorridi con sicurezza sapendo che i tuoi denti sono sani, luminosi e ben curati,
+                            indipendentemente dal fatto che tu sia...</p>
+                    </div>
+
+                    <div class="feature-item">
+                        <h3>Clinica a misura di famiglia</h3>
+                        <p>Il nostro team di esperti dentisti è qui per aiutarti a ottenere un sorriso di cui andare
+                            fiero grazie allo sbiancamento dentale.</p>
+                    </div>
+
+                    <div class="feature-item">
+                        <h3>Piani di assistenza personalizzati</h3>
+                        <p>Offriamo soluzioni personalizzate pensate per le tue specifiche necessità, garantendo
+                            risultati stabili e duraturi nel tempo.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="precision-image-wrapper reveal-right">
+                <img src="assets/hero_implantologia_real_1777380021484.png" alt="Sala odontoiatrica moderna" class="precision-img" style="width: 100%; border-radius: 1rem;">
+            </div>
+        </div>
+    </section>
+
+    <!-- Info/Testimonial Section -->
+    <section class="info container">
+        <div class="info-grid">
+            <div class="info-image-wrapper reveal-left">
+                <img src="assets/dentist-smiling.png" alt="Il nostro dentista" class="info-img">
+            </div>
+
+            <div class="info-content reveal-right">
+                <h2 class="info-title">Orari flessibili che si adattano alle tue esigenze.</h2>
+                <p class="info-text">Nella nostra clinica, comprendiamo che la vita può essere frenetica: per questo
+                    offriamo orari flessibili pensati per adattarsi al tuo stile di vita.</p>
+
+                <div class="info-separator"></div>
+
+                <div class="testimonial">
+                    <p class="testimonial-quote">"Un dentista altamente qualificato e premuroso, con anni di esperienza
+                        nell'offrire cure dentistiche di eccellenza. Noto per la sua delicatezza e per l'approccio
+                        incentrato sul paziente."</p>
+                    <div class="testimonial-author">
+                        <img src="assets/patient-avatar.png" alt="Avatar paziente" class="author-img">
+                        <div class="author-info">
+                            <p class="author-name">Macale Jack</p>
+                            <p class="author-title">Paziente</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- FAQ Section -->
+    <section class="faq-section reveal-up">
+        <div class="container">
+            <div class="treatments-header" style="text-align: center; margin-bottom: 4rem;">
+                <h2 class="section-title">Domande Frequenti</h2>
+                <p class="section-subtitle">Tutto quello che c'è da sapere prima di iniziare il tuo percorso verso un nuovo sorriso.</p>
+            </div>
+            <div class="faq-accordion">
+                <div class="faq-item">
+                    <button class="faq-question">È possibile rateizzare i trattamenti?</button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">Certamente. Offriamo diverse soluzioni di finanziamento personalizzate e dilazioni di pagamento direttamente in studio per permetterti di affrontare le cure con la massima serenità.</div>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">Come posso prenotare una prima visita?</button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">Puoi prenotare direttamente online cliccando sul tasto "Prenota Ora", inviando un messaggio via WhatsApp oppure compilando il modulo contatti in fondo a questa pagina.</div>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">Lo studio è convenzionato con assicurazioni?</button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">Sì, collaboriamo con i principali fondi integrativi e assicurazioni sanitarie. Ti consigliamo di contattarci per verificare la convenzione attiva per il tuo specifico fondo.</div>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">Quali sono i tempi medi di attesa per un appuntamento?</button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">Cerchiamo di accogliere i nostri pazienti entro una settimana dalla richiesta. Per le urgenze, garantiamo invece un appuntamento entro 24 ore.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Banner Section -->
+    <section class="cta-banner">
+        <div class="container reveal-up">
+            <h2 class="cta-text">Curiosi di sapere come prevenire la carie? Chiedete pure!</h2>
+            <a href="#contatti" class="btn btn-primary">Prenota subito il tuo posto!</a>
+        </div>
+    </section>
+
+    <!-- Footer / Contact Section -->
+    <footer class="footer">
+        <div class="footer-image-wrapper mobile-hide">
+            <img src="assets/reception.png" alt="La nostra reception" class="footer-img">
+        </div>
+
+        <div class="footer-cards container mobile-hide">
+            <!-- Opening Hours -->
+            <div class="footer-card card-white">
+                <h3>Orari di apertura</h3>
+                <div class="footer-card-content">
+                    <div class="schedule-item"><span>Dal lunedì al venerdì</span> <span>09:00-18:00</span></div>
+                    <div class="schedule-item"><span>Sabato</span> <span>10:00-16:00</span></div>
+                    <div class="schedule-item"><span>Domenica</span> <span>Chiuso</span></div>
+                </div>
+            </div>
+
+            <!-- Office Location -->
+            <div class="footer-card card-mint">
+                <h3>Ubicazione dell'ufficio</h3>
+                <div class="footer-card-content">
+                    <div class="info-item"><span class="label">Posto</span> <span>Vicino alla scuola superiore.</span>
+                    </div>
+                    <div class="info-item"><span class="label">Numero</span> <span>(555) 555-0123</span></div>
+                    <div class="info-item"><span class="label">E-mail</span> <span>contact@example.com</span></div>
+                </div>
+            </div>
+
+            <!-- Service Location -->
+            <div class="footer-card card-rust">
+                <h3>Ubicazione del servizio</h3>
+                <div class="footer-card-content">
+                    <div class="info-item"><span class="label">Posto</span> <span>Studio Dentistico...</span></div>
+                    <div class="info-item"><span class="label">Numero</span> <span>(123) 456-7890</span></div>
+                    <div class="info-item"><span class="label">E-mail</span> <span>services@example.com</span></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Form inside this section -->
+        <div id="contatti" class="contact-wrapper" style="max-width: 900px; margin: 5rem auto 0; padding: 0 2rem 5rem;">
+            <div class="contact-header">
+                <h2 class="section-title">Scrivici</h2>
+                <p>Hai domande o vuoi prenotare una visita? Il nostro team ti risponderà entro 24 ore.</p>
+            </div>
+            <form class="contact-form" onsubmit="handleContactSubmit(event)">
+                <div class="form-group">
+                    <label for="contact-nome">Nome e Cognome *</label>
+                    <input type="text" id="contact-nome" name="nome" placeholder="Mario Rossi" required>
+                </div>
+                <div class="form-group">
+                    <label for="contact-telefono">Telefono</label>
+                    <input type="tel" id="contact-telefono" name="telefono" placeholder="+39 333 000 0000">
+                </div>
+                <div class="form-group full-width">
+                    <label for="contact-email">Email *</label>
+                    <input type="email" id="contact-email" name="email" placeholder="mario.rossi@email.it" required>
+                </div>
+                <div class="form-group full-width">
+                    <label for="contact-messaggio">Messaggio *</label>
+                    <textarea id="contact-messaggio" name="messaggio" placeholder="Descrivi la tua richiesta o il trattamento di tuo interesse..." required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Invia Messaggio</button>
+            </form>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/39NUMEROSTUDIO" target="_blank" rel="noopener noreferrer" class="whatsapp-float" aria-label="Contattaci su WhatsApp">
+        <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+            <path d="M16 0C7.163 0 0 7.163 0 16c0 2.824.737 5.474 2.027 7.775L0 32l8.484-2.004A15.93 15.93 0 0 0 16 32c8.837 0 16-7.163 16-16S24.837 0 16 0zm8.326 22.674c-.344.968-1.997 1.847-2.747 1.963-.704.109-1.594.155-2.571-.162-.593-.192-1.354-.447-2.326-.876-4.098-1.77-6.776-5.894-6.98-6.166-.203-.272-1.656-2.207-1.656-4.21 0-2.003 1.05-2.988 1.422-3.393.372-.405.811-.506 1.082-.506.271 0 .541.003.778.013.25.012.584-.095.914.697.344.823 1.168 2.843 1.27 3.05.101.206.168.448.033.72-.135.272-.203.44-.405.677-.203.237-.426.53-.608.712-.203.203-.414.422-.178.828.237.406 1.051 1.733 2.257 2.808 1.55 1.382 2.856 1.81 3.262 2.013.406.203.642.169.878-.102.237-.271 1.016-1.185 1.287-1.591.271-.406.541-.338.912-.203.372.135 2.362 1.114 2.768 1.317.406.203.677.304.778.474.1.169.1.979-.244 1.947z"/>
+        </svg>
+    </a>
+
+    <!-- Main Footer -->
+    <footer class="main-footer">
+        <div class="container footer-content-grid">
+            <!-- Brand Column -->
+            <div class="footer-brand">
+                <div class="logo">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2L14.5 9.5H22L16 14L18.5 21.5L12 17L5.5 21.5L8 14L2 9.5H9.5L12 2Z"
+                            fill="#A13F31" />
+                    </svg>
+                    <span>Dentiva</span>
+                </div>
+                <p class="brand-description">La tua salute orale è la nostra missione. Offriamo cure d'avanguardia con
+                    un approccio umano e professionale dal 1998.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+                        </svg></a>
+                    <a href="#" aria-label="Instagram"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                        </svg></a>
+                    <a href="#" aria-label="LinkedIn"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                            <rect x="2" y="9" width="4" height="12" />
+                            <circle cx="4" cy="4" r="2" />
+                        </svg></a>
+                </div>
+            </div>
+
+            <!-- Services Column -->
+            <div class="footer-links-col">
+                <h4>Servizi</h4>
+                <ul>
+                    <li><a href="trattamenti/igiene.html">Igiene Orale</a></li>
+                    <li><a href="trattamenti/sbiancamento.html">Sbiancamento Dentale</a></li>
+                    <li><a href="trattamenti/implantologia.html">Implantologia</a></li>
+                    <li><a href="trattamenti/ortodonzia.html">Ortodonzia Invisibile</a></li>
+                    <li><a href="trattamenti/famiglia.html" class="highlight-kids">Per il tuo bambino</a></li>
+            </div>
+
+            <!-- Links Column -->
+            <div class="footer-links-col">
+                <h4>Link Rapidi</h4>
+                <ul>
+                    <li><a href="#">Chi Siamo</a></li>
+                    <li><a href="#">I Nostri Medici</a></li>
+                    <li><a href="#">Domande Frequenti</a></li>
+                    <li><a href="#">Blog & Notizie</a></li>
+                    <li><a href="#">Lavora con noi</a></li>
+                </ul>
+            </div>
+
+            <!-- Legal Column -->
+            <div class="footer-links-col">
+                <h4>Legale</h4>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Cookie Policy</a></li>
+                    <li><a href="#">Termini e Condizioni</a></li>
+                    <li><a href="#">Trasparenza</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container bottom-content">
+                <p>&copy; 2024 Dentiva. Tutti i diritti riservati. P.IVA IT12345678901</p>
+                <div class="bottom-links">
+                    <a href="#">Mappa del sito</a>
+                    <a href="#">Accessibilità</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
