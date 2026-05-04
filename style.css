@@ -745,22 +745,27 @@ img {
 
 /* CTA Banner Section */
 .cta-banner {
-    padding: 6rem 0;
+    padding: 4rem 0;
     text-align: center;
     background-color: var(--bg-white);
 }
 
-.cta-text {
+.cta-banner h2 {
     font-size: 2.2rem;
     font-weight: 600;
-    margin-bottom: 2.5rem;
+    margin-bottom: 1rem;
     color: var(--text-color);
+}
+
+.cta-banner p {
+    margin-bottom: 2rem;
+    color: var(--text-color-light);
 }
 
 /* Footer Section */
 .footer {
     position: relative;
-    padding-top: 400px; /* Space for the image */
+    padding-top: 100px; /* Reduced from 400px */
     background-color: var(--bg-white);
 }
 
@@ -2110,7 +2115,7 @@ img {
 
 /* Staff Section */
 .staff-section {
-    padding: 8rem 0;
+    padding: 4rem 0;
     background: #fff;
 }
 
