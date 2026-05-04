@@ -745,7 +745,7 @@ img {
 
 /* CTA Banner Section */
 .cta-banner {
-    padding: 4rem 0;
+    padding: 6rem 0 10rem; /* Bottom padding creates space for the footer image */
     text-align: center;
     background-color: var(--bg-white);
 }
@@ -753,29 +753,29 @@ img {
 .cta-banner h2 {
     font-size: 2.2rem;
     font-weight: 600;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
     color: var(--text-color);
 }
 
 .cta-banner p {
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
     color: var(--text-color-light);
 }
 
 /* Footer Section */
 .footer {
     position: relative;
-    padding-top: 100px; /* Reduced from 400px */
     background-color: var(--bg-white);
 }
 
 .footer-image-wrapper {
     position: absolute;
-    top: 0;
+    top: -50px; /* Starts slightly inside the CTA banner bottom padding */
     left: 0;
     width: 100%;
-    height: 600px;
+    height: 500px;
     z-index: 1;
+    overflow: hidden;
 }
 
 .footer-img {
@@ -789,7 +789,7 @@ img {
     z-index: 10;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin-top: -150px; /* Pulling cards up over the image */
+    margin-top: 150px; /* Pushes cards down onto the image */
     padding-bottom: 5rem;
 }
 
