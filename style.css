@@ -229,6 +229,7 @@ img {
     left: 0;
     width: 100%;
     height: 100%;
+    object-fit: cover; /* Added to prevent image squeezing */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
